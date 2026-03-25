@@ -82,8 +82,8 @@ Restart Claude Code after installation.
 
 ## Dependencies
 
-- [ljg-card](https://github.com/lijigang/ljg-skills) skill (for PNG card generation)
-- Playwright (`npm install playwright && npx playwright install chromium` in ljg-card directory)
+- [rainman-card](https://github.com/lijigang/ljg-skills) skill (for PNG card generation)
+- Playwright (`npm install playwright && npx playwright install chromium` in rainman-card directory)
 
 ## Tested Cities
 

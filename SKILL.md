@@ -13,7 +13,7 @@ version: "2.0.0"
 
 ## 模式
 
-**强制 NATIVE 模式。** 本 workflow 是多 skill 管道（城市画像 → 并行 Agent 研究 → ljg-card），不走 Algorithm 七步流程。
+**强制 NATIVE 模式。** 本 workflow 是多 skill 管道（城市画像 → 并行 Agent 研究 → rainman-card），不走 Algorithm 七步流程。
 
 ## 参数
 
@@ -173,7 +173,7 @@ version: "2.0.0"
 
 **文件命名**：`{YYYYMMDDTHHMMSS}==z--{城市}旅行研究.org`，保存到 `~/Documents/notes/`
 
-### 5. 铸造便携卡片（ljg-card）
+### 5. 铸造便携卡片（rainman-card）
 
 并行铸造两张卡片：
 
@@ -212,5 +212,5 @@ version: "2.0.0"
 ## Known Pitfalls
 
 - 威海实测：原版6个固定文化维度遗漏了海洋文化、渔民民俗、海草房建筑、美食等威海真正独特的内容。新版通过城市画像动态选维度解决。
-- ljg-card skill 首次使用需安装 playwright：`cd ~/.claude/skills/ljg-card && npm install playwright && npx playwright install chromium`
+- rainman-card skill 首次使用需安装 playwright：`cd ~/.claude/skills/rainman-card && npm install playwright && npx playwright install chromium`
 - Research / ContentAnalysis skill 如不可用，直接用 Agent + WebSearch 替代，效果一致
